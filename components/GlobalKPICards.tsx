@@ -2,7 +2,7 @@
 
 import { useMemo } from 'react'
 import { useDashboardStore } from '@/lib/store'
-import { TrendingUp, DollarSign, Calendar, Activity } from 'lucide-react'
+import { TrendingUp, DollarSign, Calendar, Activity, AlertTriangle } from 'lucide-react'
 import { formatIndianNumber, formatIndianNumberWithCommas, formatCurrencyValue } from '@/lib/utils'
 
 export function GlobalKPICards() {
@@ -177,6 +177,7 @@ export function GlobalKPICards() {
   if (!kpiData) return null
 
   return (
+    <>
     <div className="bg-gradient-to-r from-gray-50 to-gray-100 border-y border-gray-200">
       <div className="container mx-auto px-6 py-3">
         {/* Descriptive Header */}
@@ -191,9 +192,6 @@ export function GlobalKPICards() {
                 <span className="font-semibold">{kpiData.segmentTypeLabel}</span>
               </>
             )}
-          </p>
-          <p className="text-[10px] text-red-500 mt-1 italic">
-            NOTE: All the data in this is demo data. No real-world data is related to this.
           </p>
         </div>
 
@@ -279,5 +277,12 @@ export function GlobalKPICards() {
         </div>
       </div>
     </div>
+    <div className="bg-amber-50 border border-amber-300 rounded-md mx-6 mt-3 px-4 py-2 flex items-center gap-2">
+      <AlertTriangle className="h-4 w-4 text-amber-600 flex-shrink-0" />
+      <p className="text-xs text-amber-800 font-medium">
+        NOTE: All the data in this is demo data. No real-world data is related to this.
+      </p>
+    </div>
+    </>
   )
 }
