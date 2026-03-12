@@ -1,63 +1,37 @@
 {
   "Global": {
-    "By Type": {
-      "Sub-Normothermic Perfusion (20–34°C)": {},
-      "Warm or Normothermic Perfusion (35–37°C)": {}
+    "By Program Type": {
+      "STEM & STEAM Enrichment": {},
+      "Coding & Computational Thinking": {},
+      "Reading, Writing & Language Development": {},
+      "Social & Emotional Learning (SEL)": {},
+      "Critical Thinking & Creativity Programs": {},
+      "21st-Century Skills & Innovation Labs": {},
+      "Environmental & Sustainability Education": {},
+      "Others (Leadership & Collaboration Skills, Cultural & Global Awareness, etc.)": {}
     },
-    "By Organ Type": {
-      "Liver": {},
-      "Heart": {},
-      "Lung": {},
-      "Kidney": {},
-      "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": {}
+    "By Age Group": {
+      "Early Childhood Education (ECE) (Ages 3 to 5)": {},
+      "Lower Primary (Grades K to 3 / Ages 5 to 8)": {},
+      "Upper Primary (Grades 4 to 6 / Ages 9 to 11)": {},
+      "Lower Secondary / Middle School (Grades 7 to 9 / Ages 12 to 14)": {},
+      "Upper Secondary / High School (Grades 10 to 12 / Ages 15 to 18)": {}
     },
-    "Application / Use Case": {
-      "Organ Preservation": {},
-      "Viability Assessment": {},
-      "Physiologic Transport": {},
-      "Reconditioning Marginal Organs": {},
-      "Others (Research Use / Protocol development)": {}
+    "By Delivery Model": {
+      "School-Integrated Programs": {},
+      "Community Learning Centers": {},
+      "Private Learning & Tutoring Centers": {},
+      "Online / Digital Learning Platforms": {},
+      "Blended / Hybrid Models": {}
     },
     "By End User": {
-      "Hospitals & Clinics": {},
-      "Specialty Clinic/Centers": {},
-      "Transplant Centers": {},
-      "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": {}
+      "Primary / Elementary School Students": {},
+      "Middle School Students": {},
+      "High School Students": {},
+      "Students with Special Educational Needs (SEN)": {}
     },
     "By Region": {
-      "North America": {
-        "U.S.": {},
-        "Canada": {}
-      },
-      "Europe": {
-        "U.K.": {},
-        "Germany": {},
-        "Italy": {},
-        "France": {},
-        "Spain": {},
-        "Russia": {},
-        "Rest of Europe": {}
-      },
-      "Asia Pacific": {
-        "China": {},
-        "India": {},
-        "Japan": {},
-        "South Korea": {},
-        "ASEAN": {},
-        "Australia": {},
-        "Rest of Asia Pacific": {}
-      },
-      "Latin America": {
-        "Brazil": {},
-        "Argentina": {},
-        "Mexico": {},
-        "Rest of Latin America": {}
-      },
-      "Middle East & Africa": {
-        "GCC": {},
-        "South Africa": {},
-        "Rest of Middle East & Africa": {}
-      }
+      "U.S.": {}
     }
   }
 }
