@@ -150,7 +150,7 @@ export function GlobalKPICards() {
     const marketName = data.metadata.market_name || 'Global Market'
 
     const geographyLabel = actualSelectedGeographies.length === 0
-      ? `Global ${marketName}`
+      ? `U.S. ${marketName}`
       : actualSelectedGeographies.length === 1
       ? `${actualSelectedGeographies[0]} ${marketName}`
       : `${actualSelectedGeographies.length} Geographies ${marketName}`
@@ -191,6 +191,9 @@ export function GlobalKPICards() {
                 <span className="font-semibold">{kpiData.segmentTypeLabel}</span>
               </>
             )}
+          </p>
+          <p className="text-[10px] text-red-500 mt-1 italic">
+            NOTE: All the data in this is demo data. No real-world data is related to this.
           </p>
         </div>
 
